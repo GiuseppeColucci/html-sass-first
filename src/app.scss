@@ -1,13 +1,16 @@
+
+$color-test:orchid;
 .container{
     width: 300px;
     height: 400px;
     background-color: orangered;
     &-test1{
         text-align: center;
-        color: orchid;
+        color: $color-test;
     }
     &-test2{
         text-align: center;
-        color: orchid;
+        color: $color-test;
+
     }
 }
