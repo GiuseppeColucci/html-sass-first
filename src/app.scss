@@ -1,0 +1,13 @@
+.container{
+    width: 300px;
+    height: 400px;
+    background-color: orangered;
+    &-test1{
+        text-align: center;
+        color: orchid;
+    }
+    &-test2{
+        text-align: center;
+        color: orchid;
+    }
+}
